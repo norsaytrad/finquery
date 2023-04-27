@@ -28,6 +28,7 @@ st.sidebar.title('FinQuery')
 
 # enter list of symbols separated by SPACES
 #default: symbols=[^SPX ES=F ^RUT RTY=F ^NDX NQ=F ^DJI YM=F ZQ=F ZT=F ZN=F ZB=F TLT FVX TNX TYX AAPL TSLA GS]
+symbols=[^SPX ES=F ^RUT RTY=F ^NDX NQ=F ^DJI YM=F ZQ=F ZT=F ZN=F ZB=F TLT FVX TNX TYX AAPL TSLA GS MSFT]
 symbols = st.sidebar.text_input('Enter a list of tickers!')
 # validate existence of symbols during instantiation. Invalid symbols are dropped and can be viewed: invalid_symbols
 if st.sidebar.checkbox('Validate'):
