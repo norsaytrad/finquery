@@ -56,7 +56,7 @@ tickers = Ticker(symbols, asynchronous=asynchronous, validate=validate)
 
 
 # select a dashboard
-options_list = ["Modules", "Data"]
+options_list = ["Data", "Modules"]
 page = st.sidebar.selectbox('Select a Dashboard', options_list)
 
 if page == "Modules":
